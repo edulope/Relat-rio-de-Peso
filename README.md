@@ -3,7 +3,7 @@
 Esse projeto é simples e tem o objetivo de ajudar você a monitorar o seu peso diariamente e mensalmente, utilizando python e a biblioteca matplotlib
 
 ## Instalação
-Para o Python: https://www.python.org/downloads/\
+Para o Python: https://www.python.org/downloads/
 Para o matplotlib: https://matplotlib.org/users/installing.html
 
 
