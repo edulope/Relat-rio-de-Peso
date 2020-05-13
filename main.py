@@ -15,6 +15,7 @@ for line in file:
 
 # gera o primeiro grafico
 fig = plt.figure()
+plt.axis([0, len(dia), 0, max(peso)+10])
 ax = fig.add_subplot(1, 1, 1)
 ax.plot(dia, peso, color='tab:blue')
 
@@ -47,6 +48,7 @@ for i in range(0, len(dia), ++7):
 
 #gera o segundo grafico
 fig = plt.figure()
+plt.axis([0, len(semana), 0, max(pesoM)+10])
 ax = fig.add_subplot(1, 1, 1)
 ax.plot(semana, pesoM, color='tab:blue')
 
